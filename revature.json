@@ -1,0 +1,15 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "tests/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_delete",
+          "label": "Verify Steve was deleted from site_user",
+          "description": "Runs problem1(), which should delete all rows where firstname is 'Steve', then confirms the remaining rows match the expected list."
+        }
+      ]
+    }
+  ]
+}
